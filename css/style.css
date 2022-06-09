@@ -38,8 +38,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rajdhani", sans-serif;
-  font-weight: 600; }
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40;
+   }
 
 .list {
   list-style: none;
