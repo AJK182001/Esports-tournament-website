@@ -32,8 +32,12 @@ body {
   font-weight: 500;
   color: #777777; }
 
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -501,7 +505,7 @@ img {
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_left_img {
-      padding-top: 230px;
+      padding-top: 730px;
       padding-bottom: 230px; }
     .home_banner_area .banner_inner .col-lg-6 {
       vertical-align: middle;
