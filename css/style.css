@@ -1,17 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
-
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -499,27 +486,37 @@ img {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
-  z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat center center;
-  background-size: cover; }
+  background: url(../img/banner/background.png) no-repeat center center;
+  background-size:cover;
+}
+
   .home_banner_area .banner_inner {
-    width: 100%; }
-    .home_banner_area .banner_inner .home_left_img {
-      padding-top: 730px;
-      padding-bottom: 230px; }
+    width: 100%;
+   }
+   /*
+    .home_banner_area .banner_inner .home_right_img {
+      padding-top: 200px;
+      padding-right: 200px;
+     }
+     */     
     .home_banner_area .banner_inner .col-lg-6 {
-      vertical-align: middle;
-      align-self: center; }
+      vertical-align:super;
+      align-self:auto; 
+    }
+
     .home_banner_area .banner_inner .banner_content {
       text-align: left;
       color: #fff;
-      margin-left: 70px; }
+      margin-left: 35px; }
       .home_banner_area .banner_inner .banner_content h2 {
-        margin-top: 0px;
-        font-size: 60px;
+        margin-top: 210px;
+        font-size: 30px;
         font-weight: bold;
-        line-height: 72px;
-        margin-bottom: 20px; }
+        line-height: 60px;
+        margin-bottom: 20px;
+color: white;
+
+      }
       .home_banner_area .banner_inner .banner_content p {
         color: #fff;
         font-size: 16px;
@@ -570,15 +567,17 @@ img {
         padding: 0px 45px; }
 
 .banner_box {
-  max-width: 1620px;
+  max-width: 100px;
   margin: auto; }
 
 .banner_area {
-  position: relative;
-  min-height: 430px;
-  z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat center center;
-  background-size: cover; }
+  position: absolute;
+  background-size:300px 100px ;
+  background: url(../img/banner/home-banner.jpg);
+  background-repeat: no-repeat;
+
+}
+
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
