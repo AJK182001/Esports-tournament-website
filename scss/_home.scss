@@ -340,7 +340,7 @@
     .main_title {
         margin-bottom: 40px;
         h1 {
-            color: #22195e;
+            color: #100c0c;
         }
     }
 }
@@ -349,13 +349,13 @@
     position: relative;
     h3 {
         font-size: 18px;
-        color: #22195e;
+        color: #2b42d6;
         padding-top: 40px;
         margin: 0;
     }
     p {
         font-weight: 400;
-        padding: 30px 20px 40px 0;
+        padding: 30px 20px 40px 0;;
         margin: 0;
         &:after {
             content: "";
@@ -378,7 +378,7 @@
         content: "";
         position: absolute;
         height: 86%;
-        border: 1px dashed rgba(199, 199, 199, 0.5);
+        border: 1px dashed rgba(13, 13, 13, 0.5);
         left: 50%;
         transform: translateX(-50%);
         top: 40px;

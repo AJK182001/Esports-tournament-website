@@ -12,13 +12,21 @@
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   line-height: 24px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  background-color:white;
 }
 
 h2{
@@ -83,6 +91,11 @@ button:focus {
 
 img {
   max-width: 80px; }
+.editpic{
+  max-width: 120px;
+  border-radius: 50%;
+  border-color: #000;
+}
 
 /* Main Title Area css
 ============================================================================================ */
@@ -116,10 +129,11 @@ img {
 /* Start Common Section Area css
 ============================================================================================ */
 .section_content {
-  position: relative;
-  padding: 70px 0px 73px 70px; }
+  padding: 73px 0px 73px 73px;
+  background-color: #000000;
+ }
   .section_content h6 {
-    color: #fff;
+    color: rgb(251, 246, 246);
     font-size: 14px;
     margin-bottom: 12px;
     position: relative;
@@ -141,12 +155,14 @@ img {
     color: #fff;
     line-height: 45px;
     padding: 30px 0 30px;
-    margin-bottom: 0; }
-  .section_content p {
+    margin-bottom: 0;
+  }
+  .section_content h3{
     margin-bottom: 0px;
     color: #fff;
     font-weight: 400;
-    padding: 0 40px 40px 0; }
+    padding: 0 40px 40px 0;
+   }
 
 /* End Common Section Area css
 ============================================================================================ */
@@ -1497,6 +1513,78 @@ body.blog_page {
 .contact_form button.primary_btn:active {
   border-style: none !important; }
 
+  /*Names defined sectrion under About */
+  .about_us_areas{
+  position: relative;
+  }
+  .about_contents{
+    position: relative;
+  }
+  .about_contents:before{
+    content: "";
+    position: absolute;
+    height: 60%;
+    width: 89%;
+    top: 0;
+    left: 0;
+  }
+  .names_area{
+    position: relative;
+    padding-top: 220px;
+  }
+  .names_area .main_title h1{
+    color: black;
+  }
+  /*
+  .names_item{
+    position: relative;
+  }
+  .names_item h3{
+    font-size: 18px;
+        color: #f9f9fb;
+        padding-top: 40px;
+        font-weight: bolder;
+        margin: 0;
+  }
+  .names_item p{
+      font-weight: 400;
+      padding: 30px 20px 40px 0;;
+      margin: 0;
+      width: 150%;
+      color: white;
+  }
+  */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 2rem;
+  }
+  .forpic{
+    max-width: 100%;
+  display: block;
+  object-fit: cover;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  }
+  .card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
 /* Contact Success and error Area css
 ============================================================================================ */
 .modal-message .modal-dialog {

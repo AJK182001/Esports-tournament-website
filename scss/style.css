@@ -142,7 +142,7 @@ button:focus {
 /* Start Common Section Area css
 ============================================================================================ */
 .section_content h6 {
-  color: #fff;
+  color: rgb(164, 17, 17);
   font-size: 14px;
   font-weight: 600;
   font-family: "Rajdhani", sans-serif;
