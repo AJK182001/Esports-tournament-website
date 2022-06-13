@@ -1554,6 +1554,66 @@ body.blog_page {
       color: white;
   }
   */
+  .img1{
+    padding-right: 6%;
+    max-width:35%;  
+    height: auto;
+    float: right;  
+  }
+  .abtcontent1{
+    width: auto;
+    height: 30vw;
+    padding-top: 10%;
+    padding-left: 10%;
+    text-align: left;
+    line-height: 2;
+    background-color:#DAEAF1;;
+  }
+  .img2{
+    padding-left: 6%;
+    max-width:35%;  
+    height: auto;
+    float: left;
+  }
+  .abtcontent2{
+    width: auto;
+    height: 30vw;
+    padding-top: 10%;
+    padding-right: 10%;
+    text-align: right;
+    line-height: 2;
+  }
+  .img3{
+    padding-right: 6%;
+    max-width:35%;  
+    height: auto;
+    float: right; 
+
+  }
+  .abtcontent3{
+    width: auto;
+    height: 30vw;
+    background-color:#DAEAF1;;
+    padding-top: 10%;
+    padding-left: 10%;
+    text-align: left;
+    line-height: 2;
+
+  }
+  .abtuspara{
+    padding-top: 2%;
+  }
+  .abtus {
+  
+    text-align: center;
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 5%;
+
+  }
   .container {
     display: flex;
     flex-wrap: wrap;
