@@ -1572,7 +1572,7 @@ body.blog_page {
     padding-left: 10%;
     text-align: left;
     line-height: 2;
-    background-color:#DAEAF1;;
+    background-color:lavender;
   }
   .img2{
     padding-left: 6%;
@@ -1590,6 +1590,7 @@ body.blog_page {
   }
   .img3{
     padding-right: 6%;
+    top: 10px;
     max-width:35%;  
     height: auto;
     float: right; 
@@ -1598,7 +1599,7 @@ body.blog_page {
   .abtcontent3{
     width: auto;
     height: 30vw;
-    background-color:#DAEAF1;;
+    background-color:lavender;
     padding-top: 10%;
     padding-left: 10%;
     text-align: left;
@@ -1636,7 +1637,8 @@ body.blog_page {
   .card {
     display: flex;
     flex-direction: column;
-    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    width: 25%;
+    float: left;
     overflow: hidden;
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: 1em;
@@ -1647,7 +1649,7 @@ body.blog_page {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .3rem;
   }
   
 /* Contact Success and error Area css
