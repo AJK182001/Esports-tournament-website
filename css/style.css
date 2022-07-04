@@ -1620,20 +1620,29 @@ body.blog_page {
     padding-bottom: 5%;
 
   }
+  
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
     margin-block: 2rem;
-    gap: 2rem;
+    gap: 1rem;
   }
+  
   .forpic{
-    max-width: 100%;
-  display: block;
-  object-fit: cover;
+    max-width:140%;
+    display: flex;
+    object-fit:cover;
   }
-
+  .forpics{
+    max-width: 100%;
+    object-fit: cover;
+   
+  }
+  
+  
+/*
   .card {
     display: flex;
     flex-direction: column;
@@ -1645,10 +1654,48 @@ body.blog_page {
     background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
   }
+  */
+  .card{
+    border: 1px solid black;
+  float: left;
+  margin: 1px;
+  padding: 10px 3px;
+  overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  /*setting width for each and every card element as well as -10px for removing the margin width for 5 elements*/
+  width: calc( 120% / 5 - 10px);
+  }
+  .container .card:first-child {
+    margin-left: 0;
+  }
+  
+  
+  /*last element of the first row*/
+  
+  .container .card:nth-child(5n) {
+    margin-right: 0;
+  }
+  
+  
+  /*first-element of the 2nd row*/
+  
+  .container .card:nth-child(5n+1) {
+    margin-left: 0;
+  }
+  
+  
+  /*last element*/
+  
+  .container .card:last-child {
+    margin-right: 0;
+  }
   .card__body {
     padding: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction:column ;
     gap: .3rem;
   }
   
